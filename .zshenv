@@ -42,4 +42,6 @@ export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
 
 export MANPAGER='nvim +Man!'
 
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
 export WL="$HOME/Documents/cyber/ressource/wordlist"
