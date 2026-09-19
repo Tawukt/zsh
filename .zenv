@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# add `export ZDOTDIR="$HOME/.config/zsh"` to /etc/zsh/zshenv in order to place this file at .config/zsh/.zprofile
+# add `export ZDOTDIR="$HOME/.config/zsh"` to /etc/zsh/zshenv in order to place this file at .config/zsh/.zenv
 
 # ssh
 #ssh-add ~/.ssh/github
