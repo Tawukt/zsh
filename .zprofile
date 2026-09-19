@@ -16,11 +16,11 @@ export BROWSER="brave"
 export VISUAL="nvim"
 
 #Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='nvim'
-else
-  export EDITOR='vim'
-fi
+#if [[ -n $SSH_CONNECTION ]]; then
+#  export EDITOR='nvim'
+#else
+#  export EDITOR='vim'
+#fi
 
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
@@ -40,6 +40,6 @@ export STARSHIP_CACHE="$XDG_CACHE_HOME/starship/cache"
 export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
 
-export MANPAGER='nvim +Man'
+export MANPAGER='nvim +Man!'
 
-export WORD="$HOME/Documents/cyber/ressource/wordlist"
+export WL="$HOME/Documents/cyber/ressource/wordlist"
