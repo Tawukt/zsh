@@ -40,7 +40,13 @@ export STARSHIP_CACHE="$XDG_CACHE_HOME/starship/cache"
 export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
 
+# other
 export MANPAGER='nvim +Man!'
+
+if [ "$(hostname)" = "swangim" ];
+then
+    export STEAM_FORCE_DESKTOPUI_SCALING=1.9
+fi
 
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
