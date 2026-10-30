@@ -21,6 +21,8 @@ setopt HIST_IGNORE_DUPS # consecutive duplicates are not saved
 setopt HIST_IGNORE_SPACE # commands starting with space are not saved
 setopt HIST_EXPIRE_DUPS_FIRST # expire old first
 setopt HIST_FIND_NO_DUPS # no duplicate when looking history
+setopt HIST_VERIFY # hist expansion when !!,... so need 2x Enter
+
 
 #~~~~~~~~~~~ SHELL
 setopt AUTOCD # go to directory when putting name without cd 
