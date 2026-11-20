@@ -39,6 +39,8 @@ export STARSHIP_CACHE="$XDG_CACHE_HOME/starship/cache"
 # PATH
 export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH"
 export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH"
+export PATH="$PATH:$HOME/.cargo/bin"
+
 
 # other
 export MANPAGER='nvim +Man!'
